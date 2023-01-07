@@ -1,0 +1,903 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 85vw;
+    margin: auto;
+}
+
+:root {
+    --colorall: #33F9FF;
+    --colorall2: #0E4647;
+
+}
+
+/* header section */
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+#header-section .content-with-img {
+    background: url(images/lady.jpg);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+}
+
+.all-header {
+    display: flex;
+}
+
+header .logo {
+    width: 30%;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+header .menu {
+    width: 70%;
+}
+
+.all-header .menu ul {
+    display: flex;
+    margin-top: 40px;
+    justify-content: end;
+    align-items: center;
+}
+
+.all-header .menu ul li {
+    margin-right: 15px;
+}
+
+.frist-icon-section {
+    color: rgb(88, 88, 88);
+    margin-right: 20px;
+}
+
+.frist-icon-section .fa-facebook-f,
+.fa-twitter,
+.fa-magnifying-glass {
+    margin-right: 15px;
+}
+
+#header-section .health-care h1 {
+    margin-top: 70px;
+
+}
+
+#header-section .health-care p {
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 50;
+    color: #645F88;
+
+}
+
+#header-section .health-care img {
+    margin-top: 30px;
+    width: 150px;
+}
+
+.frist-box {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.box-same {
+    width: 30%;
+    background-color: #33F9FF;
+    border-radius: 10px;
+    padding: 50px 30px;
+}
+
+.frist-box .box-one {
+    margin: 15px 0px 15px 0px;
+}
+
+.frist-box .box-one h2 {
+    margin: 0px 0px 10px 10px;
+    color: #645F88;
+}
+
+.frist-box .box-one h4 {
+    margin: 0px 0px 10px 10px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.frist-box .box-one p {
+    margin: 0px 10px 45px 10px;
+    font-size: 12px;
+}
+
+.frist-box .box-two {
+    box-shadow: 0 3px 12px rgb(95 92 120/ 12%);
+    background-color: #6ceff3;
+    z-index: 2;
+}
+
+.frist-box .box-two .fa-calendar {
+    margin: 15px 0px 15px 15px;
+    font-size: 25px;
+    color: #645F88;
+}
+.frist-box .box-two h3 {
+    margin: 0px 10px 10px 10px;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.frist-box .box-two p {
+    margin-bottom: 45px;
+    font-size: 12px;
+}
+
+.frist-box .box-three {
+    margin: 10px 0px 15px 0px;
+}
+
+.frist-box .box-three .fa-clock {
+    font-size: 25px;
+    color: #645F88;
+    margin-bottom: 15px;
+
+}
+
+.frist-box .box-three h3 {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.frist-box .box-three p {
+    font-size: 12px;
+    margin-bottom: 45px;
+}
+
+.frist-box .box-one,
+.box-three {
+    z-index: 1;
+}
+
+.a-all {
+    margin: 0px 0px 40px 10px;
+    background-color: aliceblue;
+    padding: 15px 20px;
+    border-radius: 30px;
+    color: black;
+    font-size: 12px;
+}
+
+/* jevelin clinic section */
+
+#jevelin-clinic {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+#jevelin-clinic .img-section {
+    width: 50%;
+    align-items: center;
+}
+
+#jevelin-clinic .img-section img {
+    width: 90%;
+}
+
+#jevelin-clinic .cojevelin-clinic-section {
+    width: 50%;
+    margin: 0px 0px 0px 40px;
+}
+
+#jevelin-clinic .cojevelin-clinic-section h1 {
+    margin-bottom: 10px;
+}
+
+#jevelin-clinic .cojevelin-clinic-section h1 span {
+    color: #0E4647;
+    font-weight: 500;
+}
+
+#jevelin-clinic .cojevelin-clinic-section h6 {
+    margin-bottom: 30px;
+    color: #645F88;
+}
+
+#jevelin-clinic .cojevelin-clinic-section p {
+    margin-bottom: 20px;
+    font-size: 13px;
+
+}
+
+.cojevelin-clinic-section .clinic-a {
+    background-color: #33F9FF;
+    border-radius: 5px;
+    color: rgb(244, 244, 248);
+    font-size: 12px;
+    padding: 10px 60px 10px 5px;
+    width: 260px;
+
+}
+
+.cojevelin-clinic-section .clinic-a .fa-chevron-up {
+    padding: 0px 10px 0px 5px;
+}
+
+#jevelin-clinic .extra-p {
+    margin-top: 10px;
+    margin-left: 17px;
+
+}
+
+#jevelin-clinic .cojevelin-clinic-section .frist-a {
+    background-color: rgb(192, 201, 201);
+    width: 260px;
+    padding: 10px 60px 10px 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+
+
+}
+
+#jevelin-clinic .cojevelin-clinic-section .last-a {
+    background-color: rgb(173, 180, 180);
+    width: 260px;
+    padding: 10px 60px 10px 5px;
+    border-radius: 5px;
+    font-size: 12px;
+
+
+}
+
+.cojevelin-clinic-section .frist-a,
+.last-a,
+.fa-chevron-down {
+    padding: 0px 10px 0px 5px;
+}
+
+/* we can help */
+
+#we-can-help {
+    background: url(images/Rectangle-827-copy-2.jpg) no-repeat center;
+    height: 720px;
+    margin-bottom: 50px;
+
+}
+
+#we-can-help .Ophthalmology {
+    background-color: azure;
+    padding: 50px;
+    margin: 0px 20px 20px 20px;
+    border-radius: 8px;
+
+}
+
+#we-can-help .head-line {
+    text-align: center;
+
+}
+
+#we-can-help .head-line h2 {
+    padding: 50px 0px 10px 0px;
+    font-size: 15;
+}
+
+#we-can-help .head-line h6 {
+    margin-bottom: 40px;
+    font-size: 10px;
+
+}
+
+#we-can-help .Ophthalmology .icon-part1 {
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+#we-can-help .Ophthalmology .icon-part1 .icon-1,
+.icon-3,
+.icon3 {
+    width: 50%;
+
+}
+
+#we-can-help .Ophthalmology .icon-part1 .icon-1 img,
+.icon-2 img,
+.icon-3 img {
+    margin-bottom: 10px;
+
+
+}
+
+#we-can-help .Ophthalmology .icon-part1 .icon-1 p,
+.icon-2 p,
+.icon-3 p {
+    font-size: 12px;
+    margin-bottom: 40px;
+
+
+
+}
+
+#we-can-help .Ophthalmology .icon-part1 .icon-1 h4,
+.icon-2 h4,
+.icon-3 h4 {
+    margin-bottom: 15px;
+
+}
+
+#we-can-help .Ophthalmology .icon-part2 {
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+#we-can-help .Ophthalmology .icon-part2 .icon-4,
+.icon-5,
+.icon-6 {
+    width: 50%;
+
+}
+
+#we-can-help .Ophthalmology .icon-part2 .icon-4 img,
+.icon-5 img,
+.icon-6 img {
+    margin-bottom: 10px;
+
+}
+
+#we-can-help .Ophthalmology .icon-part2 .icon-4 h4,
+.icon-5 h4,
+.icon-6 h4 {
+    margin-bottom: 15px;
+
+}
+
+#we-can-help .Ophthalmology .icon-part2 .icon-4 p,
+.icon-5 p,
+.icon-6 {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+/* jenna breg section */
+
+#jenna-breg {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#jenna-breg .jenna-breg {
+    width: 50%;
+
+}
+
+#jenna-breg .jenna-breg h1 {
+    margin-bottom: 10px;
+    /* margin-left: 200px; */
+
+
+}
+
+#jenna-breg .jenna-breg h1 span {
+    font-weight: 400;
+
+}
+
+#jenna-breg .jenna-breg h6 {
+    margin-bottom: 30px;
+    color: #10b0f5;
+    font-size: 9px;
+    /* margin-left: 200px; */
+
+
+}
+
+#jenna-breg .jenna-breg p {
+    margin-bottom: 15px;
+    width: 60%;
+    /* margin-left: 200px; */
+    margin-bottom: 15px;
+
+}
+
+#jenna-breg .jenna-breg .second-p {
+    font-size: 12px;
+    color: #645F88;
+    margin-bottom: 60px;
+
+
+}
+
+#jenna-breg .jenna-breg a {
+    background-color: #33F9FF;
+    margin: 80px 0px 0px 200px;
+    color: rgb(255, 240, 241);
+}
+
+#jenna-breg .jenna-breg-img {
+    width: 50%;
+}
+
+#jenna-breg .jenna-breg-img img {
+    width: 80%;
+}
+
+
+
+/* critifed section */
+
+#critifed-doctor {
+    height: 160px;
+    background-color: #f1ecf5;
+    margin-bottom: 100px;
+}
+
+#critifed-doctor .critifed-doctor {
+    display: flex;
+}
+
+#critifed-doctor .critifed-doctor .number-all {
+    font-display: flex;
+    width: 30%;
+    text-align: center;
+}
+
+#critifed-doctor .critifed-doctor h1 {
+    font-size: 40px;
+    margin: 10px 0px 0px 0px;
+    font-weight: 900;
+}
+
+#critifed-doctor .critifed-doctor .hr-line {
+    margin-left: 130px;
+    height: 4px;
+    width: 22px;
+    background-color: var(--colorall);
+    margin-bottom: 10px;
+}
+
+/* special offeres section */
+
+#special-offeres {
+    margin-bottom: 100px;
+
+
+}
+
+#special-offeres .special-offer {
+    text-align: center;
+}
+
+#special-offeres .special-offer h1 {
+    margin-bottom: 15px;
+}
+
+#special-offeres .allergy-check {
+    background: url(images/Layer-1200.png);
+    width: 100%;
+    height: 510px;
+    margin-top: 40px;
+
+
+}
+
+#special-offeres .allergy-check {
+    display: flex;
+    justify-content: center;
+
+}
+
+#special-offeres .allergy-check .offer-box-all {
+    background-color: #33F9FF;
+    border-radius: 10px;
+    padding: 20px 80px 80px 60px;
+    text-align: center;
+}
+
+#special-offeres .allergy-check .offer-box-all h2 {
+    margin-bottom: 10px;
+}
+
+#special-offeres .allergy-check .offer-box-all h1 {
+    margin-bottom: 10px;
+}
+
+#special-offeres .allergy-check .offer-box-all h1 span {
+    font-size: 35px;
+}
+
+#special-offeres .allergy-check .offer-box-all h6 {
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+#special-offeres .allergy-check .offer-box-all p {
+    margin-bottom: 30px;
+}
+
+#special-offeres .allergy-check .offer-box-all .fa-xmark {
+    margin-bottom: 20px;
+}
+
+#special-offeres .allergy-check .offer-one,
+.offer-three {
+    z-index: 1;
+    margin: 10px 0px 15px 0px;
+}
+
+#special-offeres .allergy-check .offer-three a {
+    margin-bottom: 8px;
+
+}
+
+#special-offeres .allergy-check .offer-two {
+    background-color: #fff;
+    box-shadow: 0 3px 12px rgb(95 92 120/ 12%);
+    z-index: 2;
+}
+
+#special-offeres .allergy-check .offer-two h2 {
+    margin-top: 5px;
+}
+
+#special-offeres .allergy-check .offer-box-all a {
+    background-color: #fff;
+    padding: 10px 20px;
+}
+
+#special-offeres .allergy-check .offer-two a {
+    background-color: #10b0f5;
+
+}
+
+/* questions-section */
+
+#questions-section {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+#questions-section .question-part {
+    width: 50%;
+    margin-left: 175px;
+}
+
+#questions-section .question-part h1 {
+    margin-bottom: 8px;
+    font-weight: 500;
+
+}
+
+#questions-section .question-part h2 {
+    margin-bottom: 40px;
+
+
+}
+
+#questions-section .question-part a {
+    background-color: #0E4647;
+    padding: 10px 30px;
+    color: #fff;
+}
+
+#questions-section .appointment-part {
+    width: 40%;
+}
+
+#questions-section .appointment-part h6 {
+    width: 100%;
+    height: 40px;
+    background-color: #f1ecf5;
+    padding: 15px 60px 15px 15px;
+    font-size: 13px;
+}
+
+#questions-section .appointment-part h6 .fa-chevron-up {
+    font-size: 10px;
+    margin-left: 180px;
+
+
+}
+
+#questions-section .appointment-part p {
+    margin-top: 20px;
+}
+
+#questions-section .appointment-part .extra-icon p {
+    width: 100%;
+    font-size: 13px;
+}
+
+/* address section */
+
+#address-section {
+    margin-bottom: 100px;
+}
+
+#address-section .address-img-section {
+    background: url(images/map2.jpg) no-repeat center;
+    height: 400px;
+
+}
+
+#address-section .address-contain-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 150px;
+    background-color: #f1ecf5;
+
+}
+
+#address-section .address-contain-section .address,
+.work-hour,
+.email,
+.telephone {
+    margin: 40px 0px 0px 40px;
+    display: flex;
+    font-size: 22px;
+    color: #33F9FF;
+
+
+}
+
+#address-section .address-contain-section .address-h2 {
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+#address-section .address-contain-section .address-h2 h3 {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+/* from section */
+
+#from-section {
+    margin-bottom: 100px;
+    display: flex;
+    min-height: 500px;
+
+
+}
+
+#from-section .from-section-main {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    color: #fff;
+}
+
+#from-section .from-img-section1 {
+    width: 43%;
+    background: url(images/Rounded-Rectangle-1202-copy-21.jpg) no-repeat center;
+    /* text-align: center; */
+    margin-right: 20px;
+
+
+}
+
+#from-section .from-img-section1 .child-img {
+    margin-top: 160px;
+    margin-left: 60px;
+    margin-bottom: 15px;
+}
+
+#from-section .from-img-section1 .kate-blossom {
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+
+#from-section .from-img-section1 .child-content {
+    display: flex;
+
+}
+
+#from-section .from-img-section1 .child-content h2 {
+    margin: 0px 10px 0px 10px;
+
+
+}
+
+#from-section .from-img-section1 .child-content hr {
+
+    height: 50px;
+    background-color: #fff;
+
+
+}
+
+#from-section .from-img-section1 .child-content p {
+    margin-left: 25px;
+
+}
+
+#from-section .from-section {
+    width: 40%;
+}
+
+#from-section .from-section h1 {
+    margin-bottom: 15px;
+    font-weight: 900;
+}
+
+#from-section .from-section h6 {
+    margin-bottom: 40px;
+    color: #33F9FF;
+    font-weight: 100;
+}
+
+#from-section .from-section from {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#from-section .from-section input {
+
+    margin-bottom: 45px;
+    border: none;
+    border-bottom: 1px solid #f1ecf5;
+    padding: 0px 0px 10px 0px;
+    color: #645F88;
+    outline: none;
+}
+
+#from-section .from-section select {
+    margin-bottom: 60px;
+    border: none;
+    border-bottom: 1px solid #f1ecf5;
+    padding: 0px 0px 10px 0px;
+    color: #645F88;
+}
+
+#from-section .from-section .input .placeholder {
+    margin-left: 20px;
+}
+
+#from-section .from-section a {
+    background-color: #33F9FF;
+    padding: 10px 30px;
+    color: #fff;
+
+}
+
+
+/* footer section */
+
+#footer-section {
+    /* margin-bottom: 100px; */
+    height: 400px;
+    background-color: rgb(15, 15, 15);
+    opacity: 1.6;
+}
+
+#footer-section .all-footer-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    color: #fff;
+}
+
+#footer-section .all-footer-section .footer-part1 {
+    width: 30%;
+
+}
+
+#footer-section .all-footer-section .footer-part1 h2 {
+    margin-bottom: 20px;
+
+}
+
+#footer-section .all-footer-section .footer-part2 {
+    width: 30%;
+}
+
+#footer-section .all-footer-section .footer-part2 h2 {
+    margin-bottom: 20px;
+}
+
+#footer-section .all-footer-section .footer-part2 .footer-img {
+    display: flex;
+
+}
+
+#footer-section .all-footer-section .footer-part2 .footer-img img {
+
+    width: 20%;
+    border-radius: 50%;
+    margin: 0px 15px 15px 0px;
+}
+
+#footer-section .all-footer-section .footer-part2 .footer-img h3 {
+    margin-bottom: 10px;
+
+}
+
+#footer-section .all-footer-section .footer-part2 hr {
+    background-color: #645F88;
+    height: 1px;
+    margin-bottom: 15px;
+}
+
+#footer-section .all-footer-section .footer-part3 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+#footer-section .all-footer-section .icon-one {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#footer-section .all-footer-section .icon-one p {
+    margin-left: 15px;
+}
+
+#footer-section .all-footer-section .icon-one a {
+    margin-left: 15px;
+}
+
+/* footer last part */
+
+#footer-last-part {
+    margin-bottom: 100px;
+    width: 100%;
+    height: 75px;
+    background-color: #645F88;
+    opacity: 0.5;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#footer-last-part .footer-last-part {
+    margin-left: 500px;
+    padding: 30px 0px;
+}
+
+#footer-last-part .footer-last-icon {
+    margin: 20px 30px 0px 0px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #645F88;
+
+
+}
+
+#footer-last-part .footer-last-icon .fa-chevron-up {
+    margin: 8px 0px 0px 6px;
+}
+
+
+/* responsive */
+
+
+@media screen and (min-width:300px) and (max-width:600px) {
+
+    #footer-last-part {
+        flex: 1 1 400px;
+        max-width: ;
+
+    }
+}
